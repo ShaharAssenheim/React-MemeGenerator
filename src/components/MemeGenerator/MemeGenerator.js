@@ -1,5 +1,6 @@
 import React, {Component} from "react"
 
+
 class MemeGenerator extends Component {
   
     state = {
@@ -50,7 +51,7 @@ class MemeGenerator extends Component {
                         onChange={this.handleChange}
                     /> 
                 
-                    <button>Gen</button>
+                    <button variant="primary">Gen</button>
                 </form>
                 <div className="meme">
                     <img src={this.state.randomImg} alt="" />
